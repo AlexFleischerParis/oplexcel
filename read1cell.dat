@@ -1,4 +1,3 @@
 SheetConnection s("read1cell.xlsx");
 
-//valueArray from SheetRead(s,"A1");
 value from SheetRead(s,"A1");
