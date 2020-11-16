@@ -1,7 +1,5 @@
 
-
-int valueArray[1..1]=...;
-int value=valueArray[1];
+int value=...; 
 
 execute
 {
