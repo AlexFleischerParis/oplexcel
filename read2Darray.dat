@@ -1,0 +1,12 @@
+SheetConnection s("read2Darray.xlsx");
+
+ar from SheetRead(s,"B1:D2");
+subar from SheetRead(s,"B1:C1");
+subar2 from SheetRead(s,"B1:B2");
+se from SheetRead(s,"B1:D2");
+
+se2 to SheetWrite(s,"B5:D6");
+ar2 to SheetWrite(s,"F5:H6");
+
+subar to SheetWrite(s,"B8:B9");
+subar2 to SheetWrite(s,"B11:C11");

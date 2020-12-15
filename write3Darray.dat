@@ -1,0 +1,5 @@
+
+
+    SheetConnection sheet("write3Darray.xlsx");
+
+    someSet to SheetWrite(sheet,"A1:D24"); 

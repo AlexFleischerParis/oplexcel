@@ -1,3 +1,5 @@
 SheetConnection s("read1cell.xlsx");
 
-value from SheetRead(s,"A1");
+value from SheetRead(s,"B1");
+
+value2 to SheetWrite(s,"B5");

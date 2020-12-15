@@ -1,0 +1,4 @@
+SheetConnection s("readtupleset.xlsx");
+
+v from SheetRead(s,"A2:B4");
+v2 to SheetWrite(s,"A8:B11");

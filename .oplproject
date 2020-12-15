@@ -7,6 +7,28 @@
 			<ref name="read1cell.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="read2Darray" category="opl">
+			<ref name="read2darray.mod" type="model">
+			</ref>
+			<ref name="read2Darray.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="readtupleset" category="opl">
+			<ref name="readtupleset.mod" type="model">
+			</ref>
+			<ref name="readtupleset.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="write3Darray" category="opl">
+			<ref name="write3Darray.mod" type="model">
+			</ref>
+			<ref name="write3Darray.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="readwithoutsheetread" category="opl">
+			<ref name="readwithoutsheetread.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
