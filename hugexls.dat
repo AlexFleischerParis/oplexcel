@@ -1,0 +1,17 @@
+
+SheetConnection connex2 ("hugexls.xlsx");
+
+//Read connections
+SU from SheetRead (connex2, "S1!B1:LBM1");		
+plz from SheetRead (connex2, "S1!A2:A8177");	   
+travelTime1 from SheetRead (connex2, "S1!B2:LBM2000"); 
+travelTime2 from SheetRead (connex2, "S1!B2001:LBM4000");  
+travelTime3 from SheetRead (connex2, "S1!B4001:LBM6000");  
+travelTime4 from SheetRead (connex2, "S1!B6001:LBM8000");  
+travelTime5 from SheetRead (connex2, "S1!B8001:LBM8177");   
+
+
+//travelTime from SheetRead (connex2, "S1!B2:LBM8177");  //Fill travelTime matrice
+
+// too big and does not work
+

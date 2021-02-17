@@ -1,0 +1,3 @@
+SheetConnection sheet("write3Darray.xlsx");
+
+someSet from SheetRead(sheet,"A1:D24"); 

@@ -29,6 +29,18 @@
 			<ref name="readwithoutsheetread.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="hugexls" category="opl">
+			<ref name="hugexls.dat" type="data">
+			</ref>
+			<ref name="hugexls.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="read3Darray" category="opl">
+			<ref name="read3Darray.dat" type="data">
+			</ref>
+			<ref name="read3Darray.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
