@@ -1,0 +1,3 @@
+SheetConnection s("travelingsalesman.xlsx");
+
+solution to  SheetWrite(s,"output!B2:B1000");

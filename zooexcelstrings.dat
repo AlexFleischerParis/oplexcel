@@ -1,0 +1,6 @@
+SheetConnection s("zoo.xlsx");
+
+excelstrings from SheetRead(s,"A1:Z100");
+excelstrings to SheetWrite(s,"A1:Z100");
+
+

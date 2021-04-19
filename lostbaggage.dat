@@ -1,0 +1,14 @@
+
+
+
+
+SheetConnection s("lostbaggage.xlsx");
+
+cities from SheetRead(s,"traveltime!A2:A16");
+allowedhorizon from SheetRead(s,"param!B1");
+solvetime from SheetRead(s,"param!B2");
+timeMatrix from SheetRead(s,"traveltime!B2:P16");
+
+trips to SheetWrite(s,tripsSheetWriteString);
+nbVansUsed to SheetWrite(s,"tripresult!B1");
+maxDeliverytime to SheetWrite(s,"tripresult!B2");

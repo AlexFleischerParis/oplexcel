@@ -1,0 +1,6 @@
+SheetConnection sheet("3Dindirect.xlsx");
+Variante from SheetRead(sheet,"data!B12:D12");
+Station from SheetRead(sheet,"data!B8");
+AP from SheetRead(sheet,"data!B9");
+
+nb from SheetRead(sheet,"data!B4:J5");

@@ -29,16 +29,80 @@
 			<ref name="readwithoutsheetread.mod" type="model">
 			</ref>
 		</config>
-		<config default="false" name="hugexls" category="opl">
-			<ref name="hugexls.dat" type="data">
-			</ref>
-			<ref name="hugexls.mod" type="model">
-			</ref>
-		</config>
 		<config default="false" name="read3Darray" category="opl">
 			<ref name="read3Darray.dat" type="data">
 			</ref>
 			<ref name="read3Darray.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="lostbaggage" category="opl">
+			<ref name="lostbaggage.mod" type="model">
+			</ref>
+			<ref name="lostbaggage.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="TravelingSalesman" category="opl">
+			<ref name="travelingsalesman.mod" type="model">
+			</ref>
+			<ref name="travelingsalesman.dat" type="data">
+			</ref>
+			<ref name="subtour.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="zooexcelstrings" category="opl">
+			<ref name="zooexcelstrings.mod" type="model">
+			</ref>
+			<ref name="zooexcelstrings.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="readset" category="opl">
+			<ref name="readset.mod" type="model">
+			</ref>
+			<ref name="readset.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="writeset" category="opl">
+			<ref name="writeset.dat" type="data">
+			</ref>
+			<ref name="writeset.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="3Dindirect" category="opl">
+			<ref name="3Dindirect.mod" type="model">
+			</ref>
+			<ref name="3Dindirect.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="TravelingSalesmanExportToExcel" category="opl">
+			<ref name="tspresult.dat" type="data">
+			</ref>
+			<ref name="tspexport.dat" type="data">
+			</ref>
+			<ref name="tspexport.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="hugexlsgenerate" category="opl">
+			<ref name="hugexlsgenerate.mod" type="model">
+			</ref>
+			<ref name="hugexlsgenerate.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="hugexlsread" category="opl">
+			<ref name="hugexlsread.mod" type="model">
+			</ref>
+			<ref name="hugexlsread.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="challenge2021march" category="opl">
+			<ref name="challenge2021march.mod" type="model">
+			</ref>
+			<ref name="challenge2021march.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="readtuplekeys" category="opl">
+			<ref name="readtuplekeys.mod" type="model">
+			</ref>
+			<ref name="readtuplekeys.dat" type="data">
 			</ref>
 		</config>
 	</configs>

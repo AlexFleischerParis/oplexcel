@@ -1,0 +1,7 @@
+SheetConnection sh("challenge2021march.xlsx");
+ 
+ // import data
+ ch from SheetRead(sh,"input!A1:T20");
+ 
+ // export result
+ x to SheetWrite(sh,"output!A1:T20");

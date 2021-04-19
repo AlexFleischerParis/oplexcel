@@ -1,0 +1,4 @@
+SheetConnection s("readtuplekeys.xlsx");
+
+Lots from SheetRead(s,"A1:C2");
+Stps from SheetRead(s,"E1:I2");

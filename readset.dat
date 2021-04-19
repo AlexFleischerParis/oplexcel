@@ -1,0 +1,4 @@
+SheetConnection sh("readset.xlsx");
+
+s from SheetRead(sh,"A1:A3");
+
