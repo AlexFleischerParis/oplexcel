@@ -105,6 +105,12 @@
 			<ref name="readtuplekeys.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="readarrayofsets" category="opl">
+			<ref name="readarrayofsets.mod" type="model">
+			</ref>
+			<ref name="readarrayofsets.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>

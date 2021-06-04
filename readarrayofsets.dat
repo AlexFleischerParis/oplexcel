@@ -1,0 +1,3 @@
+SheetConnection sh("readarrayofsets.xlsx");
+
+temp from SheetRead(sh,"A1:Z4");
