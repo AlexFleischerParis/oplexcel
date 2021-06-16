@@ -1,0 +1,8 @@
+SheetConnection sh("readsetincells.xlsx");
+
+x from SheetRead(sh,"B1:L1");
+y from SheetRead(sh,"A2:A6");
+
+cells from SheetRead(sh,"B2:L6");
+
+

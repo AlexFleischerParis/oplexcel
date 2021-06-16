@@ -111,6 +111,12 @@
 			<ref name="readarrayofsets.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="readsetincells" category="opl">
+			<ref name="readsetincells.mod" type="model">
+			</ref>
+			<ref name="readsetincells.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
