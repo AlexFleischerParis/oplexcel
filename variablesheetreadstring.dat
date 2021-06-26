@@ -1,0 +1,6 @@
+SheetConnection s("zoo2.xlsx");
+
+
+params from SheetRead(s,paramread); 
+buses from SheetRead(s,parambuses);
+results to SheetWrite(s,paramwrite);

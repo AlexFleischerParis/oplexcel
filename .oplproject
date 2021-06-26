@@ -117,6 +117,10 @@
 			<ref name="readsetincells.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="variablesheetreadstring" category="opl">
+			<ref name="mainvariablesheetreadstring.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
