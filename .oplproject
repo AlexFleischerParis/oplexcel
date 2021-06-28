@@ -121,6 +121,12 @@
 			<ref name="mainvariablesheetreadstring.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="readarcs" category="opl">
+			<ref name="readarcs.mod" type="model">
+			</ref>
+			<ref name="readarcs.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>

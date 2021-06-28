@@ -1,0 +1,3 @@
+SheetConnection s("readarcs.xlsx");
+
+arcsInExcel from SheetRead(s,"A2:B5");
