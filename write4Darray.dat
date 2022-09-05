@@ -1,0 +1,3 @@
+SheetConnection sheet("write4Darray.xlsx");
+
+    someSet to SheetWrite(sheet,"A1:E48"); 
