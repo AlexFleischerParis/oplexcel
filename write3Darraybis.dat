@@ -1,0 +1,2 @@
+SheetConnection sheet("write3Darraybis.xlsx");
+result to SheetWrite(sheet,"A1:A24"); 

@@ -1,0 +1,2 @@
+SheetConnection sheet("write3Darraybis.xlsx");
+input from SheetRead(sheet,"A1:A24"); 

@@ -233,6 +233,26 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="write3Darraybis" category="opl">
+            			
+            <ref name="write3Darraybis.mod" type="model">
+			</ref>
+            			
+            <ref name="write3Darraybis.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="read3Darraybis" category="opl">
+            			
+            <ref name="read3Darraybis.mod" type="model">
+			</ref>
+            			
+            <ref name="read3Darraybis.dat" type="data">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
